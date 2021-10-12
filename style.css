@@ -1,0 +1,76 @@
+:root {
+    --color1:#114b5f;
+    --color2:#456990;
+    --color3:#e4fde1;
+    --color4:#f45b69;
+}
+
+*{ 
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--color3);
+}
+
+header {
+    background-color: var(--color2);
+    color: var(--color3);
+    padding-top: 50px;
+}
+
+h1 {
+    margin: 5px;
+}
+
+main {
+    max-width: 800px;
+    min-width: 200px;
+    margin:  50px auto;
+    text-align: center;
+
+}
+
+section#example_section{
+    text-align: center;
+    margin: 10px auto;
+} 
+
+.border_preview {
+    background-color: var(--color4);
+    display: inline-block;
+    margin: 10px;
+}
+
+#square {
+    height: 100px;
+    width:  100px;
+}
+
+#rectangle {
+    height: 100px;
+    width: 200px;
+}
+
+input {
+    margin: 10px;
+}
+
+section#copy_section {
+    height: 50px;
+    margin-top: 100px;
+}
+
+section#copy_section button,input {
+    height: 100%;
+}
+
+#Css-clipboard {
+    padding: 5px;
+    width: 250px;
+}
+
+button#copy{
+    width: 50px;
+}
